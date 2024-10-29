@@ -1,4 +1,4 @@
-# This program prints "hello world!" to the console
+# This program takes name and age then tells users how old they will be next year
 
 # TASKS
 # 1. Ask for their name
@@ -18,7 +18,6 @@ while True:
     if myName.isalpha():
         break
     else: print("Please enter a valid name without numbers")
-
 
 print ("What is your age?")
 while True:

@@ -19,7 +19,7 @@ print('What is your name?')
 # Error Handling: Ensure that name is non-numeric, ask for name again
 while True:
     name = input()
-    if name.isalpha() == False:
+    if name.replace(" ", "").isalpha() == False:
         print('\nHmm, that does not look like a name. Enter a valid name without numbers.')
     else:
         print(f'\nHello {name}! I am thinking of a number between {lowerBound} and {upperBound}.')
